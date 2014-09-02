@@ -7,11 +7,11 @@ public abstract class DFS<E> {
 
     protected static final int NIL = Integer.MIN_VALUE;
 
-    protected int time;
-    protected int[] d;
-    protected int[] f;
-    protected int[] pi;
-    protected Color[] color;
+    protected int time; // for timestamp
+    protected int[] d; // discovery time
+    protected int[] f; // finishing time
+    protected int[] pi; // predecessor or parent of vertex
+    protected Color[] color; // color of vertex
     protected Graph<E> graph;
 
     public DFS(Graph<E> graph) {

@@ -4,6 +4,11 @@ import graph.algorithms.dfs.DFS;
 import graph.beans.Color;
 import graph.beans.Graph;
 
+/** Cormen, Leiserson, Rivest, Stein. Introduction to Algorithms, 2nd Ed.
+ * Chapter 22. Elementary Graph Algorithms
+ * 22.3 Depth-first search
+ * adjacency-matrix representation
+ */
 public class MatrixDFS extends DFS<int[][]> {
 
     public MatrixDFS(Graph<int[][]> graph) {

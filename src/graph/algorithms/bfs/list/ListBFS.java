@@ -6,9 +6,11 @@ import graph.beans.Graph;
 import graph.beans.SimpleArrayListMultimap;
 import graph.beans.Vertex;
 
-import java.util.ArrayList;
-import java.util.List;
-
+/** Cormen, Leiserson, Rivest, Stein. Introduction to Algorithms, 2nd Ed.
+ * Chapter 22. Elementary Graph Algorithms
+ * 22.2 Breadth-first search
+ * adjacency-list representation
+ */
 public class ListBFS extends BFS<SimpleArrayListMultimap<Integer, Vertex>> {
 
     public ListBFS(final Graph<SimpleArrayListMultimap<Integer, Vertex>> graph) {
@@ -17,9 +19,6 @@ public class ListBFS extends BFS<SimpleArrayListMultimap<Integer, Vertex>> {
 
     @Override
     public void bfs(int src) {
-        final List<Integer> list = new ArrayList<>();
-        final Color[] color = new Color[graph.getVertexCount()];
-
         for(int i = 0; i < graph.getVertexCount(); i++) {
             if (i != src) {
                 color[i] = Color.WHITE;

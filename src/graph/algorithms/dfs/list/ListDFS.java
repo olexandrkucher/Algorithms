@@ -6,6 +6,11 @@ import graph.beans.Graph;
 import graph.beans.SimpleArrayListMultimap;
 import graph.beans.Vertex;
 
+/** Cormen, Leiserson, Rivest, Stein. Introduction to Algorithms, 2nd Ed.
+ * Chapter 22. Elementary Graph Algorithms
+ * 22.3 Depth-first search
+ * adjacency-list representation
+ */
 public class ListDFS extends DFS<SimpleArrayListMultimap<Integer, Vertex>> {
 
     public ListDFS(Graph<SimpleArrayListMultimap<Integer, Vertex>> graph) {

@@ -4,9 +4,11 @@ import graph.algorithms.bfs.BFS;
 import graph.beans.Color;
 import graph.beans.Graph;
 
-import java.util.ArrayList;
-import java.util.List;
-
+/** Cormen, Leiserson, Rivest, Stein. Introduction to Algorithms, 2nd Ed.
+ * Chapter 22. Elementary Graph Algorithms
+ * 22.2 Breadth-first search
+ * adjacency-matrix representation
+ */
 public class MatrixBFS extends BFS<int[][]> {
 
     public MatrixBFS(final Graph<int[][]> graph) {
@@ -15,9 +17,6 @@ public class MatrixBFS extends BFS<int[][]> {
 
     @Override
     public void bfs(final int src) {
-        final List<Integer> list = new ArrayList<>();
-        final Color[] color = new Color[graph.getVertexCount()];
-
         for(int i = 0; i < graph.getVertexCount(); i++) {
             if (i != src) {
                 color[i] = Color.WHITE;

@@ -4,6 +4,9 @@ public abstract class Graph<E> {
 
     protected int vertexCount;
 
+    /**
+     * @param vertexCount - count of vertex in used graph
+     */
     protected Graph(int vertexCount) {
         this.vertexCount = vertexCount;
     }

@@ -1,8 +1,8 @@
-package graph.representation.listGraph;
+package graph.beans;
 
 public class Vertex {
 
-    private int key;
+    protected int key;
 
     public Vertex(int key) {
         this.key = key;

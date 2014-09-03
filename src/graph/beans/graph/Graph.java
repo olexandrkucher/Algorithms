@@ -1,4 +1,4 @@
-package graph.beans;
+package graph.beans.graph;
 
 public abstract class Graph<E> {
 

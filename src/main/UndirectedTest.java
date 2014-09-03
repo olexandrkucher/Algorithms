@@ -1,8 +1,8 @@
 package main;
 
-import graph.algorithms.bfs.list.ListUndirectedGraph;
-import graph.algorithms.bfs.matrix.MatrixUndirectedGraph;
-import graph.beans.Graph;
+import graph.beans.graph.ListUndirectedGraph;
+import graph.beans.graph.MatrixUndirectedGraph;
+import graph.beans.graph.Graph;
 
 public class UndirectedTest {
 

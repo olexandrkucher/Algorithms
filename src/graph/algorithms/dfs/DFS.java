@@ -1,7 +1,7 @@
 package graph.algorithms.dfs;
 
 import graph.beans.Color;
-import graph.beans.Graph;
+import graph.beans.graph.Graph;
 
 public abstract class DFS<E> {
 

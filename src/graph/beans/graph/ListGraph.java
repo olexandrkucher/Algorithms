@@ -1,4 +1,7 @@
-package graph.beans;
+package graph.beans.graph;
+
+import graph.beans.SimpleArrayListMultimap;
+import graph.beans.Vertex;
 
 import java.util.stream.Collectors;
 

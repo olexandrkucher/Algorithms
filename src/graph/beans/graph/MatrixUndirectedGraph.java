@@ -1,6 +1,4 @@
-package graph.algorithms.bfs.matrix;
-
-import graph.beans.MatrixGraph;
+package graph.beans.graph;
 
 public class MatrixUndirectedGraph extends MatrixGraph {
 

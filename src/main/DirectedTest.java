@@ -1,8 +1,8 @@
 package main;
 
-import graph.algorithms.dfs.list.ListDirectedGraph;
-import graph.algorithms.dfs.matrix.MatrixDirectedGraph;
-import graph.beans.Graph;
+import graph.beans.graph.ListDirectedGraph;
+import graph.beans.graph.MatrixDirectedGraph;
+import graph.beans.graph.Graph;
 
 public class DirectedTest {
 

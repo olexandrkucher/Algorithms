@@ -1,8 +1,7 @@
-package graph.algorithms.bfs.matrix;
+package graph.algorithms.bfs;
 
-import graph.algorithms.bfs.BFS;
 import graph.beans.Color;
-import graph.beans.Graph;
+import graph.beans.graph.Graph;
 
 /** Cormen, Leiserson, Rivest, Stein. Introduction to Algorithms, 2nd Ed.
  * Chapter 22. Elementary Graph Algorithms

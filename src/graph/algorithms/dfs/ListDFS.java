@@ -1,8 +1,7 @@
-package graph.algorithms.dfs.list;
+package graph.algorithms.dfs;
 
-import graph.algorithms.dfs.DFS;
 import graph.beans.Color;
-import graph.beans.Graph;
+import graph.beans.graph.Graph;
 import graph.beans.SimpleArrayListMultimap;
 import graph.beans.Vertex;
 

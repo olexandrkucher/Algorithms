@@ -1,6 +1,5 @@
-package graph.algorithms.dfs.list;
+package graph.beans.graph;
 
-import graph.beans.ListGraph;
 import graph.beans.SimpleArrayListMultimap;
 import graph.beans.Vertex;
 

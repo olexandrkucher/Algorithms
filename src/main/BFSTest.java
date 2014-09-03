@@ -1,11 +1,11 @@
 package main;
 
 import graph.algorithms.bfs.BFS;
-import graph.algorithms.bfs.list.ListBFS;
-import graph.algorithms.bfs.list.ListUndirectedGraph;
-import graph.algorithms.bfs.matrix.MatrixBFS;
-import graph.algorithms.bfs.matrix.MatrixUndirectedGraph;
-import graph.beans.Graph;
+import graph.algorithms.bfs.ListBFS;
+import graph.beans.graph.ListUndirectedGraph;
+import graph.algorithms.bfs.MatrixBFS;
+import graph.beans.graph.MatrixUndirectedGraph;
+import graph.beans.graph.Graph;
 import graph.beans.SimpleArrayListMultimap;
 import graph.beans.Vertex;
 

@@ -1,7 +1,7 @@
 package graph.algorithms.bfs;
 
 import graph.beans.Color;
-import graph.beans.Graph;
+import graph.beans.graph.Graph;
 
 import java.util.ArrayList;
 import java.util.List;
